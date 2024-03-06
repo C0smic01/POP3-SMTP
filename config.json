@@ -1,0 +1,21 @@
+{
+    "user":
+    {
+        "sender": "C0smic@gmail.com",
+        "password": "123456"
+    },
+    "address": "127.0.0.1",
+    "port":
+    {
+        "smtp": 2225,
+        "pop3": 3335
+    },
+    "autoload": 10,
+    "filterWord":
+    {
+        "Project": ["@testing.com"],
+        "Important": ["urgent", "asap"],
+        "Work": ["report", "meeting"],
+        "Spam": ["virus", "hack", "crack"]
+    }
+}
